@@ -4,7 +4,7 @@ import gameStruct from './gamestructure.js';
 
 const desc = 'Answer "yes" if the number is even, otherwise answer "no".';
 
-function bingus() {
+function task() {
   const q = Math.floor(Math.random() * 100);
   let a = '';
   if (q % 2 === 0) {
@@ -16,4 +16,4 @@ function bingus() {
   return [q, a];
 }
 
-gameStruct(desc, bingus);
+gameStruct(desc, task);

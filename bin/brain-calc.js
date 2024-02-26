@@ -3,7 +3,7 @@ import gameStruct from './gamestructure.js';
 
 const desc = 'What is the result of the expression?';
 
-function bingus() {
+function task() {
   const numOne = Math.floor(Math.random() * 10);
   const numTwo = Math.floor(Math.random() * 10);
 
@@ -27,4 +27,4 @@ function bingus() {
   return [`${numOne} ${indexOp} ${numTwo}`, answer];
 }
 
-gameStruct(desc, bingus);
+gameStruct(desc, task);

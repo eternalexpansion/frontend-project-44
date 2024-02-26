@@ -3,7 +3,7 @@ import gameStruct from './gamestructure.js';
 
 const desc = 'Find the greatest common divisor of given numbers.';
 
-function obamaSus() {
+function task() {
   const num1 = Math.floor(Math.random() * 10);
   const num2 = Math.floor(Math.random() * 10);
   let a = num1;
@@ -20,4 +20,4 @@ function obamaSus() {
   return [`${num1} ${num2}`, answer];
 }
 
-gameStruct(desc, obamaSus);
+gameStruct(desc, task);
