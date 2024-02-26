@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import gameStruct from './gamestructure.js';
+import gameStruct from '../gamestructure.js';
 
 const desc = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 

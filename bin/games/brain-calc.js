@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import gameStruct from './gamestructure.js';
+import gameStruct from '../gamestructure.js';
 
 const desc = 'What is the result of the expression?';
 

@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import gameStruct from './gamestructure.js';
+import gameStruct from '../gamestructure.js';
 
 const desc = 'Find the greatest common divisor of given numbers.';
 

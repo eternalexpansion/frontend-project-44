@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import gameStruct from './gamestructure.js';
+import gameStruct from '../gamestructure.js';
 
 const desc = 'Answer "yes" if the number is even, otherwise answer "no".';
 
